@@ -2,10 +2,14 @@
   "name": "miriel",
   "version": "0.0.1",
   "description": "Miriel is Telegram bot based on OpenAI",
-  "main": "index.js",
+  "main": "build/index.js",
   "author": "Ahmad Rifai",
   "repository": {
     "url": "https://github.com/arifai/miriel"
+  },
+  "scripts": {
+    "start": "tsc --build && node build/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
   }
 }
