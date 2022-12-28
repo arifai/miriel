@@ -20,7 +20,11 @@
 2. Go to `miriel` folder with `cd miriel`
 3. Copy file `.env.example` to `.env.`
 4. Run `yarn install` or `npm install`
-5. Run with `yarn start` or `yarn dev` for dev mode
+5. Run with `yarn start` or `yarn dev` for development mode
+
+## License
+
+[MIT]
 
 <!-- Links -->
 [Miriel]: https://t.me/miriel_the_bot
@@ -29,3 +33,4 @@
 [Yarn]: https://yarnpkg.com
 [NPM]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 [Bot Father]: https://t.me/botfather
+[MIT]: https://github.com/arifai/miriel/blob/main/LICENSE
