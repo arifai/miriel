@@ -13,6 +13,7 @@
 ## Environment Variables
 
 - `BOT_TOKEN` - Your Telegram bot token.
+- `OPENAI_API_KEY` - Your OpenAI API key. You can create a new API key from [this].
 
 ## Local Launch
 
@@ -33,4 +34,5 @@
 [Yarn]: https://yarnpkg.com
 [NPM]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 [Bot Father]: https://t.me/botfather
+[this]: https://beta.openai.com/account/api-keys
 [MIT]: https://github.com/arifai/miriel/blob/main/LICENSE
