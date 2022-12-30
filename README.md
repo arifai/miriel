@@ -19,7 +19,7 @@
 
 1. Clone this repository: `https://github.com/arifai/miriel.git`
 2. Go to `miriel` folder with `cd miriel`
-3. Copy file `.env.example` to `.env.`
+3. Copy file `.env.example` to `.env`
 4. Run `yarn install` or `npm install`
 5. Run with `yarn start` or `yarn dev` for development mode
 
